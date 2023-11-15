@@ -1,0 +1,114 @@
+
+/* //////////////////////// */
+/* SCROLL ANIMATION */
+/* //////////////////////// */
+
+.animation-hidden{ 
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: 1s;
+    
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.programmes:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.programmes:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.programmes:nth-child(4){
+    transition-delay: 600ms;
+}
+
+
+
+/* PROJECTS ANIMATION */
+
+.cafe-animation a,
+.projects---design {
+    transition: .35s;
+    cursor: pointer;
+}
+
+.cafe-animation:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+.categorya:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.categoryb:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+
+/* <!-- CARD THANK YOU --> */
+
+.btn-thankyou{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-box{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px -5px 10px #F1F2F7;;
+
+    display:flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 30px 20px;
+    background-color: #ffff ;
+
+}
+
+.modal-box h2{
+    color: #FF4A78;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.modal-box h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.modal-box a{
+    font-family: inherit;
+    font-size: 18px;
+    background-color: #FF4A78;
+    color: #FFEDF2;
+    border:none;
+    cursor: pointer;
+    border-radius: 23px;
+    margin: 0 !important;
+    padding: 0.5rem 1rem;
+    cursor:pointer
+}
+
+.modal-box button:hover{
+    background-color: #E6436C;
+}
+
+
+/* //////////////////////////// */
